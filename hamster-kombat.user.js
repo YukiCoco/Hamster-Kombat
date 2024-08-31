@@ -8,9 +8,9 @@
 // @match        *://*.hamsterkombatgame.io/*
 // @grant        none
 // @icon         https://hamsterkombatgame.io/images/icons/hamster-coin.png
-// @downloadURL  https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-kombat.user.js
-// @updateURL    https://github.com/mudachyo/Hamster-Kombat/raw/main/hamster-kombat.user.js
-// @homepage     https://github.com/mudachyo/Hamster-Kombat
+// @downloadURL  https://github.com/YukiCoco/Hamster-Kombat/raw/main/hamster-kombat.user.js
+// @updateURL    https://github.com/YukiCoco/Hamster-Kombat/raw/main/hamster-kombat.user.js
+// @homepage     https://github.com/YukiCoco/Hamster-Kombat
 // ==/UserScript==
 
 (function() {
@@ -41,7 +41,7 @@
             'https://hamsterkombat.io/js/telegram-web-app.js?v=7.6',
             'https://hamsterkombatgame.io/js/telegram-web-app.js?v=7.6'
         ];
-        const newUrl = 'https://mudachyo.codes/hamsterkombat/telegram-web-app.js';
+        const newUrl = 'https://raw.githubusercontent.com/YukiCoco/Hamster-Kombat/main/telegram-web-app.js';
 
         // Получаем все теги <script> на странице
         const scripts = document.getElementsByTagName('script');
